@@ -10,8 +10,13 @@ nav{
 	margin-bottom: 0px;
 }
 
+.row{
+	margin-right: 0px !important;
+}
+
 img{
-	margin:20px auto;
+	margin-top:-10px;
+	margin-bottom: 20px;
 	max-height: 250px;
 	max-width: 250px;
 	height:auto;
@@ -24,6 +29,7 @@ section{
 	padding-bottom: 50px;
 	margin-top: 50px;
 	margin-bottom: 50px;
+	
 }
 
 
@@ -34,6 +40,10 @@ h2{
 
 p{
 	font-size: 12px;
+}
+
+#top{
+	margin-top: -30px;
 }
 
 .jumbotron{
@@ -51,7 +61,7 @@ p{
 #intro{
 	padding-top:0px !important;
 	margin-top:-20px;
-	height:400px;
+	height:420px;
 	background: url(img/dancefly.jpg) no-repeat center center;
 	background-size: cover;
 	
@@ -65,7 +75,7 @@ p{
 
 .introBg{
 
-	height:400px;
+	height:420px;
 	background-color: rgba(0,0,0,0.4);
 }
 
@@ -83,13 +93,15 @@ p{
 	text-align: left;
 }
 
+
 #aboutText p{
 	margin-top: 20px !important;
 	margin-bottom: 20px !important;
 }
 
 #about h4{
-	text-align: left;
+	/*text-align: left;*/
+	padding-top: 15px;
 }
 
 
@@ -114,8 +126,10 @@ p{
 	margin-bottom: 0;
 }
 
-li{
-	display:inline;
+#about li{
+	display:inline-block;
+	padding-top: 5px;
+
 }
 
 i{
@@ -147,4 +161,9 @@ i{
 .portfolioLinks a:hover{
 	text-decoration: none;
 	bottom:10px;
+}
+
+#contactLinks p{
+	margin-top: 20px;
+	
 }
