@@ -90,7 +90,7 @@
 
               <div class="contact-form-wrapper">
                 
-                <form id="contact-form" action="mail.php" method="get">
+                <form id="contact-form" action="https://formspree.io/kelvinchowjunjie120@hotmail.com">
                   
                 <div class="row">
                   <div class="col-sm-6 col-sm-offset-3">
@@ -191,6 +191,40 @@
             </div>
         </div>
     </footer>
+
+    <script type="text/javascript">
+
+      $(function sendEmail(){
+
+        var form = $('#contact-form');
+
+        $(form).submit(function(event) {
+
+          event.preventDefault();
+
+          var formData = $(form).serialize();
+
+          $.ajax({
+              type: 'POST',
+              url: $(form).attr('action'),
+              data: formData
+
+          })
+
+        });
+
+        var to      = "kelvinchowjunjie120@hotmail.com";
+        var subject = 'Project Enquiry';
+
+        var name = var _POST['name'];
+        var contact = var _POST['contact'];
+        var email = var _POST['email'];
+        var budget = var _POST['budget'];
+        var description = var _POST['description'];
+
+      });
+
+    </script>
 
 </body>
 

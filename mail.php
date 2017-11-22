@@ -4,11 +4,11 @@ $to      = "kelvinchowjunjie120@hotmail.com";
 $subject = 'Project Enquiry';
 
 
-$name = check_input($_GET['name'], 'Enter your name');
-$contact = check_input($_GET['contact']);
-$email = check_input($_GET['email']);
-$budget = check_input($_GET['budget']);
-$description = check_input($_GET['description']);
+$name = check_input($_POST['name'], 'Enter your name');
+$contact = check_input($_POST['contact']);
+$email = check_input($_POST['email']);
+$budget = check_input($_POST['budget']);
+$description = check_input($_POST['description']);
 
 $message = "New Project Enquiry from $name
 
