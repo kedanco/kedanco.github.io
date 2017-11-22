@@ -213,6 +213,10 @@ a:focus{
   margin-bottom: 50px;
 }
 
+.bigger-text{
+  font-size:16px;
+}
+
 .submit-row{
   text-align: center;
 }
@@ -220,5 +224,6 @@ a:focus{
 .email{
   padding-top:20px;
 }
+
 
 /*End of Contact Page*/
