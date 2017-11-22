@@ -27,6 +27,9 @@ Budget around $budget
 
 mail($to, $subject, $message);
 
+header('Location: contact.html');
+exit();
+
 /* Functions we used */
 function check_input($data, $problem='')
 {
