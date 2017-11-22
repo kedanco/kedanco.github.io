@@ -117,7 +117,7 @@
                   <div class="dropdown-row col-sm-6 col-sm-offset-3">
                     <div id="budget-dropdown" class="dropdown">
                     <a href="#" id="est-budget" class="btn btn-simple dropdown-toggle" data-toggle="dropdown">
-                        Estimated Budget
+                        <input id="budget-value" name="budget" type="text" placeholder="ESTIMATED BUDGET">
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu" name="form-control budget">
@@ -214,8 +214,8 @@
 
     $(document).ready(function(){
       $(".budget-item").click(function(){
-        $("#est-budget").html($(this).children().html());
-        $("#est-budget").addClass("bigger-text");
+        $("#budget-value").html($(this).children().html());
+        $("#budget-value").addClass("bigger-text");
       });
     });
       
