@@ -228,4 +228,10 @@ a:focus{
 
 /*End of Contact Page*/
 
+body.modal-open{
+  padding-right:0px !important;
+}
 
+.modal-open{
+  overflow: scroll;
+}
